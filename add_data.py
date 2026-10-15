@@ -58,8 +58,7 @@ def insert_seichi_from_json(json_path="input_templerun.json"):#제이슨 파일�
             (spot_id, space["point_name"]),  # 3. 조회 파라미터 (2개짜리 튜플)
             (anime_id, spot_id, space["point_name"], space.get("episode"), space.get("scene_desc"), space.get("stay_time", 30))
         )
-        space_id = cursor.lastrowid
-
+        
         for tag_name in data.get("tags", []):
             tag_id = get_or_create(#태그도 별개의 테이블이라 추가함ㅇㅇ
                 cursor,
