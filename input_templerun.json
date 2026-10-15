@@ -1,0 +1,20 @@
+{
+    "anime": "러브라이브! 선샤인!!",
+    "region": {
+        "prefecture":"시즈오카현",
+        "city":"누마즈시",
+        "district":"우치우라"
+    },
+    "spot":{
+        "name":"아와시마 섬",
+        "latitude": 35.0287,
+        "longitude": 138.8906
+    },
+    "space":{
+        "point_name":"카에루관",
+        "episode":"1기1화",
+        "scene_desc":"카난집(사실은 개구리 전시관)",
+        "stay_time": 25
+    },
+    "tags":["카난", "다이빙숍", "전시관"]
+}
